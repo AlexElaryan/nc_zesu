@@ -1,0 +1,10 @@
+
+.aesthetic-offers-section .offer-image::before {
+    background: linear-gradient(179.72deg, rgba(153, 129, 88, 0) 30.94%, #998158 96.32%);
+}
+
+@media screen and (max-width:1421px) {
+    .aesthetic-offers-section .offer-badge {
+        bottom: 90px;
+    }
+}

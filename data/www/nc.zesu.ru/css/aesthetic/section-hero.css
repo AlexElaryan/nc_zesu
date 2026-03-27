@@ -1,0 +1,92 @@
+@import url(../ophthalmology/section-hero.css);
+
+.aesthetic-hero-lk img {
+    height: 70px;
+}
+
+.aesthetic-hero-nav {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+.hero-slide {
+    background-image: url(../../assets/images/aesthetic/aesthetic_hero-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-slide-2 {
+    background-image: url(../../assets/images/aesthetic/aesthetic_hero-2.png);
+}
+
+.hero-slide-3 {
+    background-image: url(../../assets/images/aesthetic/aesthetic_hero-3.png);
+}
+
+.hero-slide-4 {
+    background-image: url(../../assets/images/aesthetic/aesthetic_hero-4.png);
+}
+
+.btn-background-light {
+    background: #FFFFFF26;
+}
+
+@media screen and (max-width:768px) {
+    .aesthetic-hero-nav {
+        top: 205px;
+        right: 15px;
+    }
+
+    .aesthetic-hero-nav .arrow-btn {
+        width: 32px;
+        height: 32px;
+    }
+
+    .aesthetic-hero-nav .arrow-btn svg {
+        width: 14px;
+        height: 12px;
+    }
+
+    .aesthetic-hero .hero-slide {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aesthetic-hero__body {
+        padding: 0;
+    }
+
+    .hero-slide {
+        background-image: url(../../assets/images/aesthetic/hero_mob-1.png);
+        background-position: bottom;
+    }
+
+    .hero-slide-2 {
+        background-image: url(../../assets/images/aesthetic/hero_mob-2.png);
+    }
+
+    .hero-slide-3 {
+        background-image: url(../../assets/images/aesthetic/hero_mob-3.png);
+    }
+
+    .hero-slide-4 {
+        background-image: url(../../assets/images/aesthetic/hero_mob-4.png);
+    }
+
+    .aesthetic-hero__logo {
+        margin-bottom: 20px;
+    }
+
+    .aesthetic-hero-btn {
+        font-size: 12px;
+        padding: 8px 20px;
+        margin-top: 20px;
+        width: fit-content;
+        gap: 3px;
+    }
+
+    .aesthetic-hero .ophthalmology-hero__title {
+        margin-bottom: 10px;
+    }
+}

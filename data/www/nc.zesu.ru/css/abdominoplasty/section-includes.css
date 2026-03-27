@@ -1,0 +1,21 @@
+@import url('../program/section-includes.css');
+
+.abd-feature-left_bottom {
+    gap: 10px;
+    margin-top: 90px;
+}
+
+@media screen and (max-width:991px) {
+    .abd-feature-left_bottom {
+        margin-top: 0;
+        position: absolute;
+        bottom: 40px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .abdominoplasty-includes {
+        padding-bottom: 144px;
+        position: relative;
+    }
+}

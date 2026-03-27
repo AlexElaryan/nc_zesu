@@ -1,0 +1,26 @@
+
+.clinics-documents {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.clinics-documents>div {
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .clinics-documents {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .clinics-documents>div {
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .clinics-documents>div:last-of-type {
+        border-bottom: 1px solid #20202066;
+    }
+}

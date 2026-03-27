@@ -1,0 +1,13 @@
+@import url(../ophthalmology/section-feature.css);
+
+.aesthetic-breadcrumbs {
+    margin-bottom: 75px;
+}
+
+.aesthetic-feature__visual::before {
+    background: linear-gradient(179.72deg, rgba(153, 129, 88, 0) 40.09%, #998158 96.32%);
+}
+
+.aesthetic-feature-2__btn {
+    margin-top: 50px;
+}
