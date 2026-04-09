@@ -406,6 +406,12 @@
 
 
     <main>
+        <div class="mobile-breadcrumbs d-md-none">
+            <div class="site-container">
+                <p class="mobile-breadcrumbs__text"><span>Главная</span> / <strong>Эстетическая медицина</strong></p>
+            </div>
+        </div>
+
         <!-- ============================================
              SECTION 1 - HERO SLIDER
         ============================================= -->
@@ -420,7 +426,7 @@
 
                     <div class="ophthalmology-hero__body aesthetic-hero__body position-relative container-fluid">
                         <div class="ophthalmology-hero__logo aesthetic-hero__logo">
-                            <img src="assets/images/ophthalmology/hero-logo-white.svg"
+                            <img src="assets/images/aesthetic/hero-logo-white.svg"
                                 alt="Немецкая семейная клиника — Экспертная офтальмология" class="d-block" width="262"
                                 height="70" loading="eager">
                         </div>
@@ -433,7 +439,7 @@
                                 Эстетическая и реконструктивная хирургия лица и тела с соблюдением высоких стандартов
                                 безопасности и качества.
                             </p>
-                            <div class="ophthalmology-hero__tags">
+                            <div class="ophthalmology-hero__tags aesthetic-hero__tags">
                                 <span class="ophthalmology-hero__tag">Блефаропластика</span>
                                 <span class="ophthalmology-hero__tag">Ринопластика</span>
                                 <span class="ophthalmology-hero__tag">Фейслифтинг</span>
@@ -443,6 +449,7 @@
                                 <span class="ophthalmology-hero__tag">Интимная пластика</span>
                                 <span class="ophthalmology-hero__tag">Коррекция рубцов</span>
                             </div>
+
                         </div>
 
                         <!-- Стрелки навигации (Desktop) -->
@@ -466,11 +473,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="aesthetic-hero__dots">
+                        <span class="aesthetic-hero__dot active"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                    </div>
                 </div>
 
                 <!-- Слайд 2 - Абдоминопластика -->
                 <div class="hero-slide hero-slide-2" data-slide="2">
-
                     <div class="ophthalmology-hero__body aesthetic-hero__body position-relative container-fluid">
                         <div class="ophthalmology-hero__logo">
                             <img src="assets/images/ophthalmology/hero-logo-white.svg"
@@ -500,9 +512,10 @@
                                     <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
-                                            d="M18.2071 8L0.707108 8M0.707108 8L8.20711 15.5M0.707108 8L8.20711 0.499999"
+                                            d="M18.207 8L0.707032 8M0.707032 8L8.20703 15.5M0.707032 8L8.20703 0.499999"
                                             stroke="white" stroke-linecap="round" />
                                     </svg>
+
                                 </button>
                                 <button class="arrow-btn arrow-next" id="heroNext" aria-label="Следующий слайд">
                                     <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
@@ -510,15 +523,21 @@
                                         <path d="M0.5 8H18M18 8L10.5 0.5M18 8L10.5 15.5" stroke="white"
                                             stroke-linecap="round" />
                                     </svg>
+
                                 </button>
                             </div>
                         </div>
+                    </div>
+                    <div class="aesthetic-hero__dots">
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot active"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
                     </div>
                 </div>
 
                 <!-- Слайд 3 - Блефаропластика -->
                 <div class="hero-slide hero-slide-3" data-slide="3">
-
                     <div class="ophthalmology-hero__body aesthetic-hero__body position-relative container-fluid">
                         <div class="ophthalmology-hero__logo">
                             <img src="assets/images/ophthalmology/hero-logo-white.svg"
@@ -560,11 +579,16 @@
                             </div>
                         </div>
                     </div>
+                    <div class="aesthetic-hero__dots">
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot active"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                    </div>
                 </div>
 
                 <!-- Слайд 4 - Маммопластика -->
                 <div class="hero-slide hero-slide-4" data-slide="4">
-
                     <div class="ophthalmology-hero__body aesthetic-hero__body position-relative container-fluid">
                         <div class="ophthalmology-hero__logo">
                             <img src="assets/images/ophthalmology/hero-logo-white.svg"
@@ -606,12 +630,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="hero__dots">
-                    <span class="hero__dot active"></span>
-                    <span class="hero__dot"></span>
-                    <span class="hero__dot"></span>
-                    <span class="hero__dot"></span>
+                    <div class="aesthetic-hero__dots">
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot"></span>
+                        <span class="aesthetic-hero__dot active"></span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -619,25 +643,30 @@
         <!-- ============================================
              SECTION 2: О ЦЕНТРЕ
         ============================================= -->
-        <section class="section-light ophthalmology-feature ophthalmology-about" id="about">
+        <section class="aesthetic-about-1 ophthalmology-feature aesthetic-feature-about ophthalmology-about bg-silver"
+            id="about">
             <div class="container-fluid px-4">
                 <nav class="aesthetic-breadcrumbs ophthalmology-breadcrumbs d-none d-md-block"
                     aria-label="Хлебные крошки">
                     <a href="/">Главная</a> / <span class="ophthalmology-breadcrumbs__current">Эстетическая
                         медицина</span>
                 </nav>
-                <div class="row align-items-start">
-                    <div class="col-lg-7 col-xl-7">
-                        <h2 class="ophthalmology-feature__title">О центре</h2>
-                        <div class="ophthalmology-feature__text">
-                            <p>Центр пластической хирургии и косметологии «Немецкой семейной клиники» — это опытные
-                                и высококвалифицированные пластические хирурги высшей категории. Специалисты отделения
-                                проводят операции любой сложности для решения функциональных и эстетических проблем.
-                                Косметологи помогают в реабилитации и достижении максимального результата.</p>
-                            <p>Пластика лица и тела в «Немецкой семейной клинике» — это оптимальный выбор для итогового
-                                результата, безопасности и стоимости услуг.</p>
+                <div class="row aesthetic-feature-row">
+                    <div class="col-lg-7 col-xl-7 aesthetic-feature-row__left">
+                        <div>
+                            <h2 class="ophthalmology-feature__title">О центре</h2>
+                            <div class="ophthalmology-feature__text">
+                                <p>Центр пластической хирургии и косметологии «Немецкой семейной клиники» — это опытные
+                                    и высококвалифицированные пластические хирурги высшей категории. Специалисты
+                                    отделения
+                                    проводят операции любой сложности для решения функциональных и эстетических проблем.
+                                    Косметологи помогают в реабилитации и достижении максимального результата.</p>
+                                <p>Пластика лица и тела в «Немецкой семейной клинике» — это оптимальный выбор для
+                                    итогового
+                                    результата, безопасности и стоимости услуг.</p>
+                            </div>
                         </div>
-                        <a href="#" class="ophthalmology-feature__btn ">
+                        <a href="#" class="ophthalmology-feature__btn aesthetic-feature__btn">
                             <span>Записаться на консультацию</span>
                             <span class="ophthalmology-feature__btn-arrow">→</span>
                         </a>
@@ -665,7 +694,7 @@
                     <button class="arrow-btn arrow-next"><i class="bi bi-arrow-right"></i></button>
                 </div>
 
-                <div class="programs-grid">
+                <div class="programs-grid aesthetic-programs-grid">
                     <a href="#" class="program-card">
                         <div class="program-content">
                             <h4 class="program-title">Лицо и шея</h4>
@@ -776,38 +805,41 @@
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Опытная команда <br>
                             хирургов</h3>
-                        <p class="ophthalmology-benefits__card-text">Операции проводят высококвалифицированные
-                            пластические хирурги с подтверждённым клиническим опытом.</p>
+                        <p class="ophthalmology-benefits__card-text">Операции проводят высококвалифицированные <br>
+                            пластические хирурги с подтверждённым <br> клиническим опытом.</p>
                     </article>
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Немецкое оборудование <br>
                             и качество</h3>
-                        <p class="ophthalmology-benefits__card-text">В работе используется современное оборудование,
-                            соответствующее признанным стандартам качества.</p>
+                        <p class="ophthalmology-benefits__card-text">В работе используется современное <br>
+                            оборудование,
+                            соответствующее признанным <br> стандартам качества.</p>
                     </article>
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Быстрое <br>
                             восстановление</h3>
-                        <p class="ophthalmology-benefits__card-text">Применяются современные хирургические методики,
-                            направленные на сокращение реабилитационного периода.</p>
+                        <p class="ophthalmology-benefits__card-text">Применяются современные хирургические <br>
+                            методики,
+                            направленные на сокращение <br> реабилитационного периода.</p>
                     </article>
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Безопасность <br>
                             на каждом этапе</h3>
-                        <p class="ophthalmology-benefits__card-text">Контроль состояния пациента осуществляется от
-                            первичной консультации до полного восстановления.</p>
+                        <p class="ophthalmology-benefits__card-text">Контроль состояния пациента <br> осуществляется от
+                            первичной консультации <br> до полного восстановления.</p>
                     </article>
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Многопрофильная <br>
                             клиника</h3>
-                        <p class="ophthalmology-benefits__card-text">Междисциплинарный подход позволяет привлекать
-                            специалистов разных направлений, чтобы обеспечить вашу максимальную безопасность.</p>
+                        <p class="ophthalmology-benefits__card-text">Междисциплинарный подход позволяет привлекать <br>
+                            специалистов разных направлений, чтобы обеспечить <br> вашу максимальную безопасность.</p>
                     </article>
                     <article class="ophthalmology-benefits__card">
                         <h3 class="ophthalmology-benefits__card-title">Европейский <br>
                             стандарт размещения</h3>
-                        <p class="ophthalmology-benefits__card-text">Комфортные палаты и высокий уровень сервиса для
-                            оптимального послеоперационного восстановления.</p>
+                        <p class="ophthalmology-benefits__card-text">Комфортные палаты и высокий <br> уровень сервиса
+                            для
+                            оптимального <br> послеоперационного восстановления.</p>
                     </article>
                 </div>
             </div>
@@ -820,10 +852,11 @@
             <div class="container-fluid px-4">
                 <div class="ophthalmology-directions__header">
                     <h2 class="ophthalmology-directions__title">Основные направления работы</h2>
-                    <p class="ophthalmology-directions__subtitle">Эстетические и реконструктивные операции лица и тела с
+                    <p class="ophthalmology-directions__subtitle aesthetic-directions__subtitle">Эстетические и
+                        реконструктивные операции лица и тела с
                         соблюдением высоких стандартов безопасности.</p>
                 </div>
-                <div class="ophthalmology-directions__grid">
+                <div class="ophthalmology-directions__grid aesthetic-directions__grid">
                     <a href="#" class="ophthalmology-directions__item">
                         <span class="ophthalmology-directions__item-text">Абдоминопластика</span>
                         <span class="ophthalmology-directions__item-arrow">→</span>
@@ -1059,69 +1092,100 @@
                 </div>
 
                 <div class="aesthetic-results__slider">
-                    <div class="results-arow">
-                        <button
-                            class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--left aesthetic-results__arrow--left"
-                            type="button" aria-label="Предыдущий слайд">
-                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                                <path d="M17 7.5H1m0 0L7.5 1M1 7.5l6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button
-                            class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--right aesthetic-results__arrow--right"
-                            type="button" aria-label="Следующий слайд">
-                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                                <path d="M1 7.5h16m0 0L10.5 1M17 7.5l-6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
+                    <div>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
+                            </div>
+
+                            <div class="aesthetic-results_right">
+                                <h3>Блефаропластика верхних век</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено: </p>
+                                    <span>Верхняя блефаропластика.</span>
+                                </div>
+                                <div>
+                                    <p>Результат: </p>
+                                    <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
+                            </div>
+
+                            <div class="aesthetic-results_right">
+                                <h3>Блефаропластика верхних век</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено: </p>
+                                    <span>Верхняя блефаропластика.</span>
+                                </div>
+                                <div>
+                                    <p>Результат: </p>
+                                    <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
+                            </div>
+
+                            <div class="aesthetic-results_right">
+                                <h3>Блефаропластика верхних век</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено: </p>
+                                    <span>Верхняя блефаропластика.</span>
+                                </div>
+                                <div>
+                                    <p>Результат: </p>
+                                    <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="aesthetic-results__slide active">
-                        <div class="aesthetic-results_left">
-                            <span class="offer-badge">18+</span>
-                            <div id="comparison1">
-                                <img src="assets/images/aesthetic/result-before.jpg">
-                                <img src="assets/images/aesthetic/result-after.jpg">
-                            </div>
-
-                            <!-- <div class="compare-container" id="image-compare">
-                                <img src="assets/images/aesthetic/result-after.jpg" class="img-after" alt="after">
-
-                                <div class="before-wrapper">
-                                    <img src="assets/images/aesthetic/result-before.jpg" class="img-before"
-                                        alt="before">
-                                </div>
-
-                                <div class="compare-arrow">
-                                    <div class="arrow-inner">
-                                        <svg width="14" height="48" viewBox="0 0 14 48">
-                                            <path d="M0 24L14 48L6.4 24L14 0L0 24Z" fill="white" />
-                                        </svg>
-                                        <svg width="14" height="48" viewBox="0 0 14 48">
-                                            <path d="M14 24L0 0L7.5 24L0 48L14 24Z" fill="white" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div> -->
-                        </div>
-
-                        <div class="aesthetic-results_right">
-                            <h3>Блефаропластика верхних век</h3>
-                            <div>
-                                <p>Запрос пациента:</p>
-                                <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
-                            </div>
-                            <div>
-                                <p>Проведено: </p>
-                                <span>Верхняя блефаропластика.</span>
-                            </div>
-                            <div>
-                                <p>Результат: </p>
-                                <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
-                            </div>
-                        </div>
+                    <div class="results-arow">
+                        <button class="ophthalmology-technologies__arrow aesthetic-results__arrow--left" type="button"
+                            aria-label="Предыдущий слайд">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2072 8L0.707154 8M0.707154 8L8.20715 15.5M0.707154 8L8.20715 0.499999"
+                                    stroke="#202020" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <button class="ophthalmology-technologies__arrow aesthetic-results__arrow--right" type="button"
+                            aria-label="Следующий слайд">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.5 8H18M18 8L10.5 0.5M18 8L10.5 15.5" stroke="#202020"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -1130,7 +1194,7 @@
         <!-- ============================================
              SECTION: Стационар центра
         ============================================= -->
-        <section class="ophthalmology-feature ophthalmology-about" id="about">
+        <section class="ophthalmology-feature aesthetic-feature-about ophthalmology-about" id="about">
             <div class="container-fluid px-4">
                 <div class="row align-items-start">
                     <div class="col-lg-7 col-xl-7">
@@ -1162,7 +1226,7 @@
         <!-- ============================================
              SECTION 12: ТЕХНОЛОГИИ И ВОЗМОЖНОСТИ ЦЕНТРА
         ============================================= -->
-        <section class="section-light ophthalmology-technologies section-white" id="technologies">
+        <section class="aesthetic-technologies section-light ophthalmology-technologies" id="technologies">
             <div class="container-fluid px-4">
                 <div class="section-header text-center">
                     <h2 class="section-title">Интерьеры центра и стационара</h2>
@@ -1170,33 +1234,48 @@
                         медицинскими стандартами и требованиями безопасности.</p>
                 </div>
 
-                <div class="ophthalmology-technologies__slider">
-                    <div class="ophthalmology-technologies__slide active">
-                        <img src="assets/images/aesthetic/tech-slide-1.png" alt="Диагностика и оборудование"
-                            loading="lazy">
+                <div class="ophthalmology-technologies__slider aesthetic-technologies__slider">
+                    <div>
+                        <div class="ophthalmology-technologies__slide aesthetic-technologies__slide">
+                            <img src="assets/images/aesthetic/tech-slide-1.png" alt="Диагностика и оборудование"
+                                loading="lazy">
+                        </div>
+                        <div class="ophthalmology-technologies__slide aesthetic-technologies__slide">
+                            <img src="assets/images/aesthetic/tech-slide-1.png" alt="Диагностика и оборудование"
+                                loading="lazy">
+                        </div>
+                        <div class="ophthalmology-technologies__slide aesthetic-technologies__slide">
+                            <img src="assets/images/aesthetic/tech-slide-1.png" alt="Диагностика и оборудование"
+                                loading="lazy">
+                        </div>
+                        <div class="ophthalmology-technologies__slide aesthetic-technologies__slide">
+                            <img src="assets/images/aesthetic/tech-slide-1.png" alt="Диагностика и оборудование"
+                                loading="lazy">
+                        </div>
                     </div>
 
-                    <button class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--left"
+
+                    <div class="aesthetic-technologies__dots">
+                        <span class="aesthetic-technologies__dot active"></span>
+                        <span class="aesthetic-technologies__dot"></span>
+                        <span class="aesthetic-technologies__dot"></span>
+                        <span class="aesthetic-technologies__dot"></span>
+                    </div>
+                    <button
+                        class="ophthalmology-technologies__arrow aesthetic-technologies__arrow--left aesthetic-technologies__arrow"
                         type="button" aria-label="Предыдущий слайд">
-                        <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                            <path d="M17 7.5H1m0 0L7.5 1M1 7.5l6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
+                        <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18.2072 8L0.707154 8M0.707154 8L8.20715 15.5M0.707154 8L8.20715 0.499999"
+                                stroke="white" stroke-linecap="round" />
                         </svg>
                     </button>
-                    <button class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--right"
+                    <button
+                        class="ophthalmology-technologies__arrow aesthetic-technologies__arrow--right aesthetic-technologies__arrow"
                         type="button" aria-label="Следующий слайд">
-                        <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                            <path d="M1 7.5h16m0 0L10.5 1M17 7.5l-6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                stroke-linecap="round" stroke-linejoin="round" />
+                        <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 8H18M18 8L10.5 0.5M18 8L10.5 15.5" stroke="white" stroke-linecap="round" />
                         </svg>
                     </button>
-
-                    <div class="ophthalmology-technologies__dots">
-                        <span class="ophthalmology-technologies__dot active"></span>
-                        <span class="ophthalmology-technologies__dot"></span>
-                        <span class="ophthalmology-technologies__dot"></span>
-                        <span class="ophthalmology-technologies__dot"></span>
-                    </div>
                 </div>
             </div>
         </section>
@@ -1296,7 +1375,7 @@
                     </div>
                 </div>
 
-                <div class="section-actions d-flex justify-content-center gap-3 mt-5">
+                <div class="section-actions d-flex justify-content-center gap-3 mt-5 aesthetic-reviews_bottom">
                     <a href="#" class="btn btn-outline-dark btn-lg">
                         Оставить отзыв
                         <span class="btn-arrow">→</span>
@@ -1317,15 +1396,18 @@
             <div class="container-fluid p-4">
                 <div
                     class="ophthalmology-cta__inner position-relative overflow-hidden d-flex flex-column align-items-center justify-content-center text-center text-white">
-                    <img class="ophthalmology-cta__bg position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-block"
+                    <img class="d- ophthalmology-cta__bg position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-none d-md-block"
                         src="assets/images/ophthalmology/cta-bg.png" alt="" role="presentation" loading="lazy"
                         decoding="async" width="1440" height="580">
+                    <img class="ophthalmology-cta__bg position-absolute top-0 start-0 w-100 h-100 object-fit-cover d-md-none d-block"
+                        src="assets/images/aesthetic/cta-mob.png" alt="" role="presentation" loading="lazy"
+                        decoding="async" width="290" height="500">
                     <div class="ophthalmology-cta__content position-relative text-center">
                         <img class="ophthalmology-cta__logo d-block mx-auto mb-4"
-                            src="assets/images/ophthalmology/hero-logo-white.svg"
+                            src="assets/images/aesthetic/hero-logo-white.svg"
                             alt="Немецкая семейная клиника — Экспертная офтальмология" width="262" height="70"
                             loading="lazy">
-                        <h2 class="ophthalmology-cta__title">Записаться на консультацию</h2>
+                        <h2 class="ophthalmology-cta__title">Записаться <br> на консультацию</h2>
                         <p class="ophthalmology-cta__subtitle">Оставьте заявку, и администратор центра свяжется с вами
                             для уточнения деталей и выбора удобного времени приёма.</p>
                         <a href="#" class="ophthalmology-cta__btn">
@@ -1400,11 +1482,12 @@
         <!-- ============================================
              SECTION: Рассрочка и кредитование
         ============================================= -->
-        <section class="ophthalmology-feature ophthalmology-about section-light" id="about">
+        <section class="aesthetic-installment ophthalmology-feature ophthalmology-about bg-silver" id="about">
             <div class="container-fluid px-4">
                 <div class="row align-items-start">
-                    <div class="col-lg-5 col-xl-4 mt-4 mt-lg-0">
-                        <div class="ophthalmology-feature__visual aesthetic-feature__visual">
+                    <div class="col-lg-5 col-xl-4 mt-4 mt-lg-0 aesthetic-feature__visual-col">
+                        <div
+                            class="ophthalmology-feature__visual afdadas aesthetic-feature__visual aesthetic-feature__visual-inst">
                             <img src="assets/images/aesthetic/installment.png"
                                 alt="Центр экспертной офтальмологии — диагностика и лечение"
                                 class="w-100 h-auto d-block" loading="lazy" decoding="async" width="440" height="404">
@@ -1438,7 +1521,7 @@
         <section class="clinics-section" id="clinics">
             <div class="container-fluid px-4">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 clinics-left">
                         <div class="section-header text-start">
                             <h2 class="section-title">Наши клиники</h2>
                             <p class="section-subtitle text-start m-0">
@@ -1481,8 +1564,7 @@
                                 <span class="clinic-type">Клиника для детей<br>им. С.Я.Снигиревой</span>
                                 <p class="clinic-hours">Время работы:<br>с 8:00 до 22:00 (Ежедневно)</p>
                                 <span class="clinic-metro blue-circle-metro">ст.м. Парк Победы</span>
-                                <p class="clinic-address">Санкт-Петербург,<br><span
-                                        class="text-muted small">ул.Варшавская д.23 к. 1</span></p>
+                                <p class="clinic-address">Санкт-Петербург,<br>ул.Варшавская д.23 к. 1</p>
                             </div>
                             <div class="clinic-card">
                                 <span class="clinic-type">Круглосуточный стационар для взрослых и детей</span>
@@ -1504,7 +1586,7 @@
                 <div class="clinics-documents">
                     <div class="plus-type">
                         <div class="plus-type_top">
-                            <p>Юридические документы?</p>
+                            <p>Юридические документы</p>
                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.42127 12V0H6.57873V12H5.42127ZM0 6.5832V5.4168H12V6.5832H0Z"
@@ -1756,19 +1838,7 @@
     <script src="js_twenty/jquery.event.move.js"></script>
     <script src="js_twenty/jquery.twentytwenty.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        const plusItems = document.querySelectorAll('.plus-type');
-
-        plusItems.forEach(item => {
-            item.addEventListener('click', () => {
-                item.classList.toggle('active');
-            })
-        })
-
-        $(function () {
-            $("#comparison1").twentytwenty();
-        });
-    </script>
+    <script src="js/aesthetic.js"></script>
 </body>
 
 </html>

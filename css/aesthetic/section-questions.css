@@ -54,4 +54,8 @@
     .plus-type_main {
         font-size: 14px;
     }
+
+    .questions>div>div>div {
+        padding: 0;
+    }
 }

@@ -342,7 +342,6 @@ function initSliders() {
             });
         }
     }
-
     // Programs slider arrows (mobile)
     const programsArrows = document.querySelector('.programs-arrows');
     if (programsArrows) {
@@ -368,6 +367,7 @@ function initSliders() {
             });
         }
     }
+
 }
 
 /**

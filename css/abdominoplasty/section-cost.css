@@ -15,12 +15,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #20202066;
 }
 
 .cost_item:first-of-type,
 .cost_item:nth-of-type(2) {
-    border-top: 1px solid;
+    border-top: 1px solid #20202066;
 }
 
 .cost_item p {

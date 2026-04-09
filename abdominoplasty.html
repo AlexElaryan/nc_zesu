@@ -431,7 +431,7 @@
             </div>
             <div class="program-hero__body d-flex flex-column container-fluid px-4 position-relative">
                 <div class="program-hero__logo">
-                    <img src="assets/images/preventive-medicine/hero-logo-white.svg"
+                    <img src="assets/images/aesthetic/hero-logo-white.svg"
                         alt="Немецкая семейная клиника — Превентивная медицина" loading="eager">
                 </div>
                 <div class="program-hero__content mt-md-auto">
@@ -447,6 +447,12 @@
         ============================================= -->
         <section class="about-mission py-6-custom">
             <div class="container-fluid px-4">
+                <nav class="aesthetic-breadcrumbs ophthalmology-breadcrumbs d-none d-md-block"
+                    aria-label="Хлебные крошки">
+                    <a href="/">Главная /</a>
+                    <a href="/">Эстетическая медицина /</a>
+                    <span class="ophthalmology-breadcrumbs__current">Абдоминопластика</span>
+                </nav>
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-12 col-lg-6">
                         <h3>Абдоминопластика — это операция, направленная на восстановление формы живота после снижения
@@ -458,7 +464,7 @@
                                 и комфортного восстановления.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-6 about-mission__image_p">
                         <div class="about-mission__image text-lg-end">
                             <img src="assets/images/abdominoplasty/mission-doctors.png"
                                 alt="Врачи Немецкой семейной клиники" class="img-fluid">
@@ -482,11 +488,21 @@
                         <div class="row abd-feature-left_bottom">
                             <a href="#" class="abd-feature__btn">
                                 <span>Записаться на приём</span>
-                                <span class="ophthalmology-feature__btn-arrow">→</span>
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.18963 9.54541L5.56108 8.92218L9.26847 5.22013H-1.11759e-07V4.32524H9.26847L5.56108 0.623179L6.18963 -4.44326e-05L10.9624 4.77268L6.18963 9.54541Z"
+                                        fill="#202020" />
+                                </svg>
                             </a>
                             <a href="#" class="abd-feature__btn">
                                 <span>Записаться на консультацию</span>
-                                <span class="ophthalmology-feature__btn-arrow">→</span>
+                                <svg width="11" height="10" viewBox="0 0 11 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6.18963 9.54541L5.56108 8.92218L9.26847 5.22013H-1.11759e-07V4.32524H9.26847L5.56108 0.623179L6.18963 -4.44326e-05L10.9624 4.77268L6.18963 9.54541Z"
+                                        fill="#202020" />
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -512,53 +528,106 @@
             <div class="container-fluid px-4">
                 <div class="section-header text-center">
                     <h2 class="section-title">Результаты операций</h2>
-                    <p class="section-subtitle">Фотографии до и после демонстрируют реальные результаты хирургического
-                        лечения. Все материалы размещены с согласия пациентов. Каждый случай индивидуален, а итог
-                        зависит от исходных данных и выбранной методики.</p>
+                    <p class="section-subtitle result-subtitle">Фотографии до и после демонстрируют реальные результаты
+                        хирургического лечения. Все материалы размещены с согласия пациентов. Каждый случай
+                        индивидуален, а итог зависит от исходных данных и выбранной методики.</p>
                 </div>
 
                 <div class="aesthetic-results__slider">
-                    <div class="results-arow">
-                        <button
-                            class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--left aesthetic-results__arrow--left"
-                            type="button" aria-label="Предыдущий слайд">
-                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                                <path d="M17 7.5H1m0 0L7.5 1M1 7.5l6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button
-                            class="ophthalmology-technologies__arrow ophthalmology-technologies__arrow--right aesthetic-results__arrow--right"
-                            type="button" aria-label="Следующий слайд">
-                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none" aria-hidden="true">
-                                <path d="M1 7.5h16m0 0L10.5 1M17 7.5l-6.5 6.5" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
+                    <div>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
+                            </div>
 
-                    <div class="aesthetic-results__slide active">
-                        <div class="aesthetic-results_left">
-                            <div id="comparison1">
-                                <img src="assets/images/aesthetic/result-before.jpg">
-                                <img src="assets/images/aesthetic/result-after.jpg">
+                            <div class="aesthetic-results_right">
+                                <h3>Абдоминопластика</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Избыточная кожа и снижение тонуса мышц после беременности.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено:</p>
+                                    <span>Удаление избытков кожи и укрепление передней брюшной стенки.</span>
+                                </div>
+                                <div>
+                                    <p>Результат:</p>
+                                    <span>Восстановлен контур живота, улучшены пропорции тела.</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="aesthetic-results_right">
-                            <h3>Абдоминопластика</h3>
-                            <div>
-                                <p>Запрос пациента:</p>
-                                <span>Избыточная кожа и снижение тонуса мышц после беременности.</span>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
                             </div>
-                            <div>
-                                <p>Проведено:</p>
-                                <span>Удаление избытков кожи и укрепление передней брюшной стенки..</span>
-                            </div>
-                            <div>
-                                <p>Результат:</p>
-                                <span>Восстановлен контур живота, улучшены пропорции тела.</span>
+
+                            <div class="aesthetic-results_right">
+                                <h3>Блефаропластика верхних век</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено: </p>
+                                    <span>Верхняя блефаропластика.</span>
+                                </div>
+                                <div>
+                                    <p>Результат: </p>
+                                    <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
+                                </div>
                             </div>
                         </div>
+                        <div class="aesthetic-results__slide">
+                            <div class="aesthetic-results_left">
+                                <span class="offer-badge">18+</span>
+                                <div id="comparison1" class="comparison">
+                                    <img src="assets/images/aesthetic/result-before.jpg">
+                                    <img src="assets/images/aesthetic/result-after.jpg">
+                                </div>
+                            </div>
+
+                            <div class="aesthetic-results_right">
+                                <h3>Блефаропластика верхних век</h3>
+                                <div>
+                                    <p>Запрос пациента:</p>
+                                    <span>Выраженные нависшие веки, ощущение тяжести взгляда.</span>
+                                </div>
+                                <div>
+                                    <p>Проведено: </p>
+                                    <span>Верхняя блефаропластика.</span>
+                                </div>
+                                <div>
+                                    <p>Результат: </p>
+                                    <span>Устранено нависание кожи, взгляд стал более открытым и естественным.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="results-arow">
+                        <button class="ophthalmology-technologies__arrow aesthetic-results__arrow--left" type="button"
+                            aria-label="Предыдущий слайд">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.2072 8L0.707154 8M0.707154 8L8.20715 15.5M0.707154 8L8.20715 0.499999"
+                                    stroke="#202020" stroke-linecap="round" />
+                            </svg>
+                        </button>
+                        <button class="ophthalmology-technologies__arrow aesthetic-results__arrow--right" type="button"
+                            aria-label="Следующий слайд">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.5 8H18M18 8L10.5 0.5M18 8L10.5 15.5" stroke="#202020"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -566,7 +635,7 @@
         <!-- ============================================
              SECTION: Как проходит операция
         ============================================= -->
-        <section class="process" id="process">
+        <section class="process abd-process" id="process">
             <div class="container-fluid px-4">
                 <h2 class="section-title">Как проходит операция</h2>
                 <p class="section-subtitle">Основные этапы хирургического лечения и восстановления.</p>
@@ -597,7 +666,7 @@
                             <p>Коррекция зоны</p>
                         </div>
                         <div class="process_table-td">
-                            <p class="process_table-str">Операция</p>
+                            <p class="process_table-str">Восстановление</p>
                             <p>Наблюдение и контроль</p>
                             <p>Соблюдает рекомендации</p>
                             <p>Стабильный результат</p>
@@ -826,83 +895,73 @@
             </div>
         </section>
         <!-- ============================================
-             SECTION: ВРАЧИ ПРОГРАММЫ
+             SECTION: ВРАЧИ 
         ============================================= -->
-        <section class="program-doctors" id="doctors">
+        <section class="ophthalmology-doctors" id="doctors" aria-labelledby="ophthalmology-doctors-title">
             <div class="container-fluid px-4">
-                <div class="program-doctors__header text-center">
-                    <h2 class="program-doctors__title">Пластические хирурги центра</h2>
-                    <p class="program-doctors__subtitle mx-auto">Операции проводят врачи с подтверждённой квалификацией
-                        и опытом работы в области эстетической и реконструктивной хирургии.</p>
+                <div class="ophthalmology-doctors__header">
+                    <h2 class="ophthalmology-doctors__title" id="ophthalmology-doctors-title">Пластические хирурги
+                        центра</h2>
+                    <p class="ophthalmology-doctors__subtitle">Операции проводят врачи с подтверждённой квалификацией и
+                        опытом работы в области эстетической и реконструктивной хирургии.</p>
                 </div>
 
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
-                    <div class="col">
-                        <a href="#" class="program-doctors__card">
-                            <div class="program-doctors__photo">
-                                <img src="assets/images/program/doctor-1.png" alt="Фамилия Имя Отчество" loading="lazy"
-                                    decoding="async">
-                            </div>
-                            <h3 class="program-doctors__name">Фамилия<br>Имя Отчество</h3>
-                            <p class="program-doctors__experience">Опыт работы: X лет</p>
-                            <p class="program-doctors__specialty">Специализация: профилактика сердечно-сосудистых
-                                заболеваний, интегративный подход</p>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="program-doctors__card">
-                            <div class="program-doctors__photo">
-                                <img src="assets/images/program/doctor-2.png" alt="Фамилия Имя Отчество" loading="lazy"
-                                    decoding="async">
-                            </div>
-                            <h3 class="program-doctors__name">Фамилия<br>Имя Отчество</h3>
-                            <p class="program-doctors__experience">Опыт работы: X лет</p>
-                            <p class="program-doctors__specialty">Специализация: профилактика сердечно-сосудистых
-                                заболеваний, интегративный подход</p>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="program-doctors__card">
-                            <div class="program-doctors__photo">
-                                <img src="assets/images/program/doctor-3.png" alt="Фамилия Имя Отчество" loading="lazy"
-                                    decoding="async">
-                            </div>
-                            <h3 class="program-doctors__name">Фамилия<br>Имя Отчество</h3>
-                            <p class="program-doctors__experience">Опыт работы: X лет</p>
-                            <p class="program-doctors__specialty">Специализация: профилактика сердечно-сосудистых
-                                заболеваний, интегративный подход</p>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="program-doctors__card">
-                            <div class="program-doctors__photo">
-                                <img src="assets/images/program/doctor-4.png" alt="Фамилия Имя Отчество" loading="lazy"
-                                    decoding="async">
-                            </div>
-                            <h3 class="program-doctors__name">Фамилия<br>Имя Отчество</h3>
-                            <p class="program-doctors__experience">Опыт работы: X лет</p>
-                            <p class="program-doctors__specialty">Специализация: профилактика сердечно-сосудистых
-                                заболеваний, интегративный подход</p>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a href="#" class="program-doctors__card d-none d-md-block">
-                            <div class="program-doctors__photo">
-                                <img src="assets/images/program/doctor-5.png" alt="Фамилия Имя Отчество" loading="lazy"
-                                    decoding="async">
-                            </div>
-                            <h3 class="program-doctors__name">Фамилия<br>Имя Отчество</h3>
-                            <p class="program-doctors__experience">Опыт работы: X лет</p>
-                            <p class="program-doctors__specialty">Специализация: профилактика сердечно-сосудистых
-                                заболеваний, интегративный подход</p>
-                        </a>
-                    </div>
+                <div class="ophthalmology-doctors__grid" role="list">
+                    <a href="doctor.html" class="ophthalmology-doctors__card" role="listitem">
+                        <div class="ophthalmology-doctors__photo">
+                            <img src="assets/images/aesthetic/aesthetic_doctor-1.png"
+                                alt="Фамилия Имя Отчество — врач-офтальмолог, офтальмохирург" loading="lazy"
+                                decoding="async" width="256" height="300">
+                        </div>
+                        <h3 class="ophthalmology-doctors__name">Говоров<br>
+                            Антон Владимирович</h3>
+                        <p class="ophthalmology-doctors__specialty">Врач-офтальмолог, офтальмохирург, кандидат
+                            медицинских наук</p>
+                    </a>
+                    <a href="doctor.html" class="ophthalmology-doctors__card" role="listitem">
+                        <div class="ophthalmology-doctors__photo">
+                            <img src="assets/images/aesthetic/aesthetic_doctor-2.png"
+                                alt="Фамилия Имя Отчество — врач-офтальмолог, детский офтальмолог" loading="lazy"
+                                decoding="async" width="256" height="300">
+                        </div>
+                        <h3 class="ophthalmology-doctors__name">Вылегжанин<br>
+                            Андрей Александрович </h3>
+                        <p class="ophthalmology-doctors__specialty">Врач-офтальмолог, детский офтальмолог</p>
+                    </a>
+                    <a href="doctor.html" class="ophthalmology-doctors__card" role="listitem">
+                        <div class="ophthalmology-doctors__photo">
+                            <img src="assets/images/aesthetic/aesthetic_doctor-3.png"
+                                alt="Фамилия Имя Отчество — врач-офтальмолог, офтальмохирург" loading="lazy"
+                                decoding="async" width="256" height="300">
+                        </div>
+                        <h3 class="ophthalmology-doctors__name">Максюта<br>
+                            Вадим Александрович</h3>
+                        <p class="ophthalmology-doctors__specialty">Врач-офтальмолог, офтальмохирург</p>
+                    </a>
+                    <a href="doctor.html" class="ophthalmology-doctors__card" role="listitem">
+                        <div class="ophthalmology-doctors__photo">
+                            <img src="assets/images/aesthetic/aesthetic_doctor-4.png"
+                                alt="Фамилия Имя Отчество — врач-офтальмолог, специалист по сетчатке" loading="lazy"
+                                decoding="async" width="256" height="300">
+                        </div>
+                        <h3 class="ophthalmology-doctors__name">Нестерук<br>Олег Леонидович </h3>
+                        <p class="ophthalmology-doctors__specialty">Врач-офтальмолог, специалист по сетчатке</p>
+                    </a>
+                    <a href="doctor.html" class="ophthalmology-doctors__card" role="listitem">
+                        <div class="ophthalmology-doctors__photo">
+                            <img src="assets/images/aesthetic/aesthetic_doctor-5.png"
+                                alt="Фамилия Имя Отчество — врач-офтальмолог, лазерный хирург" loading="lazy"
+                                decoding="async" width="256" height="300">
+                        </div>
+                        <h3 class="ophthalmology-doctors__name">Шаповалов<br>Сергей Георгиевич </h3>
+                        <p class="ophthalmology-doctors__specialty">Врач-офтальмолог, лазерный хирург</p>
+                    </a>
                 </div>
 
-                <div class="program-doctors__action text-center mt-4 pt-2">
-                    <a href="#" class="btn btn-outline-dark btn">
-                        Перейти ко всем врачам
-                        <span class="btn-arrow">→</span>
+                <div class="ophthalmology-doctors__action">
+                    <a href="#" class="ophthalmology-doctors__btn">
+                        <span>Перейти ко всем врачам</span>
+                        <span class="ophthalmology-doctors__btn-arrow" aria-hidden="true">→</span>
                     </a>
                 </div>
             </div>
@@ -911,9 +970,9 @@
         <!-- ============================================
              SECTION 6: Записаться на приём (ФОРМА)
         ============================================= -->
-        <section class="program-form section-light" id="form">
+        <section class="bg-silver program-form section-light" id="form">
             <div class="container-fluid px-4">
-                <div class="row align-items-start">
+                <div class="row form-row_abd">
                     <div class="col-lg-6">
                         <div class="program-form__visual">
                             <img src="assets/images/abdominoplasty/form-visual.png" alt="Консультация врача"
@@ -1166,19 +1225,7 @@
     <script src="js_twenty/jquery.twentytwenty.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
-    <script>
-        const plusItems = document.querySelectorAll('.plus-type');
-
-        plusItems.forEach(item => {
-            item.addEventListener('click', () => {
-                item.classList.toggle('active');
-            })
-        })
-
-        $(function () {
-            $("#comparison1").twentytwenty();
-        });
-    </script>
+    <script src="js/aesthetic.js"></script>
 </body>
 
 </html>
