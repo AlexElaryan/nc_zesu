@@ -57,7 +57,21 @@
     margin-top: 30px;
 }
 
+.cost-bottom .abd-feature__btn:first-of-type {
+    margin-left: 60px;
+}
+
+@media screen and (max-width:991px) {
+    .cost-bottom .abd-feature__btn:first-of-type {
+        margin-left: 46px;
+    }
+}
+
 @media screen and (max-width:768px) {
+    .cost-bottom .abd-feature__btn:first-of-type {
+        margin-left: 0;
+    }
+
     .cost {
         text-align: left;
     }

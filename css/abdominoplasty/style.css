@@ -106,6 +106,15 @@
     background: linear-gradient(179.72deg, rgba(153, 129, 88, 0) 30.94%, rgba(153, 129, 88, 0.4) 96.32%);
 }
 
+.program-form__captcha-refresh {
+    max-height: 38px;
+    margin-left: -3px;
+}
+
+.program-form__input--textarea:placeholder-shown {
+    padding-top: 78px;
+}
+
 @media screen and (min-width:991px) {
     .form-row_abd {
         align-items: stretch;
@@ -189,5 +198,10 @@
 @media screen and (max-width:768px) {
     :root {
         --section-padding: 50px 0;
+    }
+
+    .program-form__captcha-refresh {
+        max-height: 26px;
+        max-width: 26px;
     }
 }
