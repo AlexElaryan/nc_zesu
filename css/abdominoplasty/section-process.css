@@ -34,8 +34,8 @@
     line-height: 110%;
     letter-spacing: -2%;
     color: #202020E5;
-    padding: 24px 30px;
-    height: 100%;
+    padding: 0 30px;
+    height: 76px;
     display: flex;
     align-items: center;
 }
@@ -53,7 +53,8 @@
 }
 
 .process_table>div.process_table-tr p {
-    padding: 20px 30px 15px 30px;
+    padding: 0 30px;
+    height: 61px;
 }
 
 @media screen and (max-width:1200px) {
@@ -62,12 +63,14 @@
     }
 
     .process_table>div.process_table-tr p {
-        padding: 20px 15px 18.75px 15px;
+        padding: 0 15px;
+        height: 51.75px;
     }
 
     .process_table p {
         font-size: 12px;
-        padding: 20px 14.5px;
+        height: 62.25px;
+        padding: 0 15px;
     }
 
     .process .section-title,

@@ -204,4 +204,24 @@
         max-height: 26px;
         max-width: 26px;
     }
+
+    .program-form__visual {
+        display: block;
+        min-height: 290px;
+        margin-bottom: 20px;
+    }
+
+    .program-form__visual img {
+        aspect-ratio: 290 / 290;
+    }
+
+    .program-form__input--textarea:placeholder-shown {
+        padding-top: 116px;
+    }
+
+    .program-form__btn,
+    .ophthalmology-doctors__btn {
+        height: 32px;
+    }
+
 }

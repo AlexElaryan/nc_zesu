@@ -36,6 +36,10 @@
     display: none;
 }
 
+.ophthalmology-cta__btn {
+    height: 39px;
+}
+
 @media screen and (max-width:768px) {
 
     .aesthetic-cta .container-fluid {
