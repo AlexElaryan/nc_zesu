@@ -224,4 +224,7 @@
         height: 32px;
     }
 
+    .program-hero__logo img {
+        width: 134px;
+    }
 }

@@ -135,4 +135,9 @@
     .reviews-section .section-actions .btn {
         height: 32px;
     }
+
+    .ophthalmology-hero__logo img {
+        width: 134px;
+        height: 35px;
+    }
 }
