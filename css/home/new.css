@@ -192,7 +192,7 @@
     padding: 70px 0;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:992px) {
     .hero-title {
         font-size: 32px;
     }
@@ -217,11 +217,16 @@
     .directions-subtitle {
         max-height: fit-content;
     }
+
+    .hero-bg {
+        background: #1C2472;
+    }
 }
 
-    .map-container {
-        border-radius: unset;
-    }
+.map-container {
+    border-radius: unset;
+}
+
 @media screen and (max-width:768px) {
     .directions-title {
         font-size: 28px;
@@ -395,4 +400,58 @@
         padding: 50px 15px;
     }
 
+    .hero-image-mobile {
+        display: block;
+        width: 100%;
+        margin: unset;
+    }
+
+    .hero-bg {
+        background: #1C2472;
+    }
+
+    .hero-slide {
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    .hero-content,.hero-awards-mobile {
+        padding: 0 15px;
+    }
+    .hero-description-v3 p, .hero-description-v4 p, .hero-description-v5 p, .hero-features li {
+        font-size: 12px;
+    }
+    .hero-title {
+        margin-bottom: unset;
+    }
+    .hero-features li::before {
+        font-size: 8px;
+    }
+
+    .hero-features li {
+        margin-left: -5px;
+    }
+
+    .hero-note {
+        font-size: 6px;
+        margin-top: unset;
+    }
+
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .hero-description-v4, .hero-description-v5 {
+        max-width: 237px;
+        overflow: hidden;
+        margin-bottom: 17px;
+    }
+    .hero-title-v4 {
+        white-space: pre-line;
+        margin-top: -35px;
+    }
+
+    .hero-info-v4 .hero-buttons {
+        margin-bottom: 20px;
+    }
 }
