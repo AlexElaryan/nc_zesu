@@ -1,0 +1,398 @@
+@import url("../aesthetic/section-clinics.css");
+@import url("../aesthetic/section-reviews.css");
+
+.btn {
+    max-height: 39px;
+}
+
+.hero-slider {
+    min-height: 745px;
+}
+
+.hero-slide {
+    min-height: 745px;
+}
+
+.btn-primary-fill {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.hero-features li {
+    font-size: 18px;
+}
+
+.hero-features {
+    gap: 0;
+}
+
+.hero-note {
+    font-size: 10px;
+    margin-top: 24px;
+}
+
+.hero-bg {
+    background-image: url("../../assets/images/home_new/hero-bg_1.png");
+}
+
+.hero-bg::after {
+    height: 100%;
+    background: linear-gradient(179.72deg, rgba(28, 36, 114, 0) 30.94%, #1C2472 96.32%);
+}
+
+.hero-bg::before {
+    background: linear-gradient(270deg, rgba(28, 36, 114, 0) 30.94%, #1C2472 96.32%);
+}
+
+.hero-title.hero-title-v2 {
+    margin-top: unset;
+}
+
+.hero-description-v3 p,
+.hero-description-v4 p,
+.hero-description-v5 p {
+    font-size: 18px;
+}
+
+.hero-description-v4,
+.hero-description-v5 {
+    margin-bottom: 43px;
+}
+
+.hero-info-v4 .hero-buttons {
+    margin-bottom: 65px;
+}
+
+.hero-title {
+    font-size: 60px;
+}
+
+.arrow-btn {
+    min-height: 39px;
+    min-width: 39px;
+    width: 39px;
+    height: 39px;
+}
+
+.directions-section {
+    padding: 70px 0;
+}
+
+.directions-header {
+    max-width: 824px;
+    margin-bottom: 34px;
+}
+
+.directions-title {
+    font-size: 52px;
+}
+
+.directions-tab,
+.directions-subtitle {
+    font-size: 18px;
+}
+
+.directions-grid {
+    gap: 5px 20px;
+}
+
+.directions-action {
+    margin-top: 30px;
+}
+
+.directions-tabs {
+    margin-bottom: 30px;
+}
+
+.directions-tab {
+    padding-bottom: 7px;
+    padding-top: 0;
+}
+
+.direction-item {
+    height: 56px;
+    margin: unset;
+    padding: 0 20px;
+}
+
+.directions-title {
+    max-height: 57px;
+}
+
+.directions-subtitle {
+    max-height: 46px;
+}
+
+.standards-cards {
+    max-width: 50%;
+}
+
+.standards-layout {
+    justify-content: space-between;
+}
+
+.standards-cards .card-text-sm {
+    max-width: 240px;
+}
+
+.doctors-header {
+    max-width: 825px;
+}
+
+.doctors-subtitle {
+    font-size: 18px;
+}
+
+.doctors-action {
+    margin-top: 30px;
+}
+
+.doctors-tab-link {
+    font-size: 18px;
+}
+
+.doctors-tab-link::after {
+    width: 100%;
+    left: 0;
+}
+
+.news-excerpt {
+    margin-bottom: unset;
+}
+
+.news-title {
+    margin-bottom: 12px;
+    margin-top: 69px;
+    flex-grow: 1;
+}
+
+.news-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-section .section-action {
+    margin-top: 30px !important;
+}
+
+.news-tabs {
+    margin-bottom: 30px;
+}
+
+.news-section .section-header {
+    margin-bottom: 30px;
+}
+
+.news-section,
+.offers-section,
+.programs-section,
+.doctors-section,
+.competence-section,
+.standards-section,
+.reviews-section {
+    padding: 70px 0;
+}
+
+@media screen and (max-width:1000px) {
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-slide,
+    .hero-slider {
+        min-height: auto;
+    }
+
+    .direction-item {
+        height: 45px;
+    }
+
+    .directions-title {
+        font-size: 42px;
+    }
+
+    .standards-cards {
+        max-width: 100%;
+    }
+
+    .directions-subtitle {
+        max-height: fit-content;
+    }
+}
+
+    .map-container {
+        border-radius: unset;
+    }
+@media screen and (max-width:768px) {
+    .directions-title {
+        font-size: 28px;
+        max-height: fit-content;
+    }
+
+    .directions-section,
+    .news-section,
+    .offers-section,
+    .programs-section,
+    .doctors-section,
+    .competence-section,
+    .standards-section,
+    .reviews-section {
+        padding: 50px 0;
+    }
+
+    .directions-subtitle {
+        font-size: 14px;
+    }
+
+    .directions-header {
+        margin-bottom: 20px;
+    }
+
+    .directions-tabs {
+        gap: 12px;
+    }
+
+    .directions-tab {
+        font-size: 16px;
+    }
+
+    .direction-text {
+        font-size: 14px;
+    }
+
+    .direction-item:first-child {
+        border: 1px solid var(--color-border);
+    }
+
+    .direction-item {
+        padding: 0 15px;
+    }
+
+    .direction-item:nth-child(n + 10) {
+        display: none;
+    }
+
+    .directions-action {
+        margin-top: 20px;
+    }
+
+    .section-title-left {
+        font-size: 28px;
+        margin-bottom: unset;
+    }
+
+    .standards-content {
+        gap: 15px;
+        margin-bottom: 25px;
+    }
+
+    .section-text {
+        margin-bottom: unset;
+        font-size: 14px;
+    }
+
+    .standards-cards .row .col-6 {
+        margin: unset;
+        /* padding: unset; */
+        width: 100%;
+    }
+
+    .standard-card {
+        padding: 20px 10px;
+        gap: 26px;
+    }
+
+    .card-title-sm {
+        margin-bottom: unset;
+        max-height: 28px;
+    }
+
+    .standards-cards .g-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 8px;
+    }
+
+    .standards-action {
+        margin-top: 20px;
+        padding: unset;
+        padding-left: 7px;
+    }
+
+    .btn {
+        font-size: 12px !important;
+        height: 32px;
+        max-height: 32px !important;
+        padding: 0 20px !important;
+    }
+
+    .doctors-title {
+        font-size: 28px;
+    }
+
+    .doctors-subtitle {
+        font-size: 14px;
+    }
+
+    .doctors-tab-link {
+        padding-top: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .doctors-tabs-list {
+        gap: 12px;
+    }
+
+    .doctors-header {
+        margin-bottom: 20px;
+    }
+
+    .doctors-title {
+        margin-bottom: 15px;
+    }
+
+    .doctors-grid {
+        gap: 20px 10px;
+    }
+
+    .doctors-action {
+        margin-top: 20px;
+    }
+
+    .programs-arrows .arrow-btn {
+        min-width: 32px;
+        min-height: 32px;
+    }
+
+    .programs-grid {
+        margin-left: unset;
+    }
+
+    .news-tabs .nav-tabs-custom {
+        column-gap: 10px;
+    }
+
+    .news-title {
+        margin-top: 35px;
+    }
+
+    .news-section .section-action .btn {
+        width: fit-content;
+    }
+
+    .news-section .section-action {
+        width: fit-content;
+        align-self: center;
+        margin-top: 20px !important;
+    }
+
+    .arrow-btn svg {
+        width: 14px;
+        height: 12px;
+    }
+
+    .clinics-section {
+        padding: 50px 15px;
+    }
+
+}
