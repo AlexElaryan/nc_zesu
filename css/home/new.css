@@ -430,6 +430,10 @@
 
     .hero-features li {
         margin-left: -5px;
+        margin-bottom: unset;
+        width: 312px;
+        letter-spacing: -3%;
+        padding-left: 8px;
     }
 
     .hero-note {
@@ -453,5 +457,68 @@
 
     .hero-info-v4 .hero-buttons {
         margin-bottom: 20px;
+    }
+
+    .hero-content, .hero-awards-mobile {
+        gap: 10px;
+    }
+    .hero-features {
+        margin-bottom: 10px;
+    }
+
+    .hero-note {
+        margin-top: 5px;
+    }
+
+    .arrow-btn {
+        min-width: 32px;
+        min-height: 32px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .hero-title {
+        line-height: 90%;
+        letter-spacing: -3%;
+    }
+
+    .hero-description p {
+        font-size: 12px;
+    }
+
+    .hero-description {
+        max-width: 251px;
+    }
+
+    .hero-content-v2 .hero-note {
+        white-space: pre-line;
+    }
+
+    .hero-description p {
+        margin-bottom: 20px;
+    }
+    .hero-slide {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .hero-info-v4 .hero-buttons, .hero-content-v5 {
+        margin-bottom: 40px;
+    }
+    .hero-description-v4 {
+        max-width: 220px;
+    }
+
+    .hero-title-v3 {
+        white-space: pre-line;
+        margin-top: -25px;
+    }
+
+    .hero-content-v5 {
+        gap: 15px;
+    }
+
+    .hero-description-v5 {
+        max-width: 231px;
     }
 }
