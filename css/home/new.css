@@ -192,6 +192,125 @@
     padding: 70px 0;
 }
 
+.standards-action {
+    width: 100%;
+    margin-top: unset;
+}
+
+.standards-section {
+    height: 531px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.standards-content .section-title-left {
+    margin-top: -17px;
+}
+
+.standards-intro {
+    /* flex-grow: 1; */
+    justify-content: space-between;
+}
+
+.standards-layout {
+    align-items: stretch;
+}
+
+.standards-layout> .standards-action {
+    display: none;
+}
+
+.doctors-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.competence-header {
+    margin-bottom: 30px;
+}
+
+.search-section {
+    padding: 40px;
+}
+
+.search-card-content {
+    padding: 0;
+}
+
+.search-card {
+    height: 500px;
+}
+
+.doctors-title {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.doctors-header {
+    margin-bottom: 35px;
+}
+
+.doctors-tabs {
+    margin-bottom: 30px;
+}
+
+.doctor-photo img {
+    aspect-ratio: 1 / 1.15;
+}
+
+.doctor-name {
+    margin-bottom: 10px;
+}
+
+.doctor-desc {
+    margin-bottom: unset;
+}
+
+.doctors-tab-link {
+    padding: unset;
+    padding-bottom: 7px;
+    width: 180px;
+    border-bottom: 1px solid rgba(32, 32, 32, 0.3)
+}
+
+.doctors-tabs-list {
+    gap: 10px;
+}
+
+.doctors-subtitle {
+    line-height: 130%;
+}
+
+.doctors-subtitle:first-of-type {
+    margin-bottom: 15px;
+}
+
+.programs-section .section-title {
+    line-height: 90%;
+    margin-bottom: 25px;
+}
+
+.offers-section .section-subtitle {
+    max-width: 665px;
+}
+
+.section-header {
+    margin-bottom: 30px;
+}
+
+.offers-section .section-action {
+    margin-top: 30px !important;
+}
+
+@media screen and (max-width:1300px) {
+
+    .doctors-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media screen and (max-width:992px) {
     .hero-title {
         font-size: 32px;
@@ -220,6 +339,10 @@
 
     .hero-bg {
         background: #1C2472;
+    }
+
+    .doctors-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -254,6 +377,15 @@
 
     .directions-tabs {
         gap: 12px;
+        margin-bottom: 20px;
+    }
+
+    .standards-content .section-title-left {
+        margin-top: unset;
+    }
+
+    .standards-section {
+        height: fit-content;
     }
 
     .directions-tab {
@@ -415,15 +547,22 @@
         padding-right: unset;
     }
 
-    .hero-content,.hero-awards-mobile {
+    .hero-content,
+    .hero-awards-mobile {
         padding: 0 15px;
     }
-    .hero-description-v3 p, .hero-description-v4 p, .hero-description-v5 p, .hero-features li {
+
+    .hero-description-v3 p,
+    .hero-description-v4 p,
+    .hero-description-v5 p,
+    .hero-features li {
         font-size: 12px;
     }
+
     .hero-title {
         margin-bottom: unset;
     }
+
     .hero-features li::before {
         font-size: 8px;
     }
@@ -445,11 +584,13 @@
         gap: 10px;
     }
 
-    .hero-description-v4, .hero-description-v5 {
+    .hero-description-v4,
+    .hero-description-v5 {
         max-width: 237px;
         overflow: hidden;
         margin-bottom: 17px;
     }
+
     .hero-title-v4 {
         white-space: pre-line;
         margin-top: -35px;
@@ -459,9 +600,11 @@
         margin-bottom: 20px;
     }
 
-    .hero-content, .hero-awards-mobile {
+    .hero-content,
+    .hero-awards-mobile {
         gap: 10px;
     }
+
     .hero-features {
         margin-bottom: 10px;
     }
@@ -497,14 +640,17 @@
     .hero-description p {
         margin-bottom: 20px;
     }
+
     .hero-slide {
         padding-top: 25px;
         padding-bottom: 15px;
     }
 
-    .hero-info-v4 .hero-buttons, .hero-content-v5 {
+    .hero-info-v4 .hero-buttons,
+    .hero-content-v5 {
         margin-bottom: 40px;
     }
+
     .hero-description-v4 {
         max-width: 220px;
     }
@@ -520,5 +666,33 @@
 
     .hero-description-v5 {
         max-width: 231px;
+    }
+
+    .standards-intro .standards-action {
+        display: none;
+    }
+
+    .standards-layout> .standards-action {
+        display: block;
+    }
+
+    .search-section {
+        padding: 40px 15px;
+    }
+
+    .search-card {
+        height: 357px;
+    }
+
+    .search-card-bg {
+        background-image: url("../../assets/images/search-bg_mob.png");
+    }
+
+    .search-card-content {
+        padding: 0 10px;
+    }
+
+    .doctors-tab-link {
+        width: 100%;
     }
 }
