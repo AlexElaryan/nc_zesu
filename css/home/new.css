@@ -9,7 +9,8 @@
     min-height: 745px;
 }
 
-.hero-slide {
+.hero-slide,
+.hero-section {
     min-height: 745px;
 }
 
@@ -217,7 +218,7 @@
     align-items: stretch;
 }
 
-.standards-layout> .standards-action {
+.standards-layout>.standards-action {
     display: none;
 }
 
@@ -303,6 +304,23 @@
     margin-top: 30px !important;
 }
 
+.directions-tabs {
+    gap: 10px;
+}
+
+.section-text {
+    font-size: 18px;
+}
+
+.card-title-sm {
+    font-size: 24px;
+}
+
+.search-btn {
+    padding: 0px 22px;
+    height: 39px;
+}
+
 @media screen and (max-width:1300px) {
 
     .doctors-grid {
@@ -344,6 +362,20 @@
     .doctors-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .section-text {
+        font-size: 14px;
+    }
+
+    .card-title-sm {
+        font-size: 16px;
+    }
+
+    .search-btn {
+        padding: 0 20px;
+        height: 32px;
+    }
+
 }
 
 .map-container {
@@ -672,7 +704,7 @@
         display: none;
     }
 
-    .standards-layout> .standards-action {
+    .standards-layout>.standards-action {
         display: block;
     }
 
@@ -694,5 +726,65 @@
 
     .doctors-tab-link {
         width: 100%;
+    }
+
+    .mobile-menu-btn {
+        height: 28px;
+        padding: 7px 0;
+    }
+
+    .mobile-menu-actions {
+        gap: 8px;
+    }
+
+    .mobile-nav-toggle, .mobile-nav-link {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .mobile-menu-nav {
+        padding: 0 15px;
+        border-top: unset;
+    }
+
+    .mobile-menu-header {
+        border-bottom: unset;
+    }
+
+    .mobile-nav-item, .mobile-nav-link {
+        min-height: 31px;
+        padding-top: 7px;
+    }
+
+    .mobile-nav-submenu {
+        padding: 0;
+    }
+
+    .mobile-nav-submenu a {
+        font-size: 12px;
+        padding: 3px 0;
+    }
+
+    .mobile-nav-submenu a:last-of-type {
+        padding-bottom: 12px;
+    }
+
+    .mobile-menu-contacts {
+        padding-top: 0;
+    }
+
+    .mobile-dept-link {
+        border-bottom: 1px solid var(--color-border);
+        padding-bottom: 8px;
+        gap: 7px;
+        font-size: 16px;
+        line-height: 120%;
+    }
+    .mobile-menu-departments {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .mobile-nav-item:first-of-type {
+        border-top: 1px solid var(--color-border);
     }
 }
