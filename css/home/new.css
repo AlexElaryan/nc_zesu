@@ -884,9 +884,11 @@
     .news-section .section-header {
         margin-bottom: 20px;
     }
+
     .news-section .section-title {
         margin-bottom: 15px;
     }
+
     .news-tabs {
         margin-bottom: 20px;
     }
@@ -899,5 +901,25 @@
 
     .news-tabs .nav-tabs-custom {
         row-gap: 12px;
+    }
+
+    .offer-card:nth-child(1) .offer-image {
+        background-image: url(../../assets/images/offer-1_new.png) !important;
+    }
+
+    .offer-card:nth-child(2) .offer-image {
+        background-image: url(../../assets/images/offer-2_new.png) !important;
+    }
+
+    .offer-card:nth-child(3) .offer-image {
+        background-image: url(../../assets/images/offer-3.png) !important;
+    }
+
+    .offer-card:nth-child(4) .offer-image {
+        background-image: url(../../assets/images/offer-4_new.png) !important;
+    }
+
+    .offer-card:nth-child(5) .offer-image {
+        background-image: url(../../assets/images/offer-5_new.png) !important;
     }
 }

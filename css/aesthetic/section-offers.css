@@ -30,3 +30,26 @@
         bottom: 90px;
     }
 }
+
+@media screen and (max-width:768px) {
+    
+    .offer-card:nth-child(1) .offer-image {
+        background-image: url(../../assets/images/aesthetic/offer-1_mob.png) !important;
+    }
+
+    .offer-card:nth-child(2) .offer-image {
+        background-image: url(../../assets/images/aesthetic/offer-2_mob.png) !important;
+    }
+
+    .offer-card:nth-child(3) .offer-image {
+        background-image: url(../../assets/images/aesthetic/offer-3_mob.png) !important;
+    }
+
+    .offer-card:nth-child(4) .offer-image {
+        background-image: url(../../assets/images/aesthetic/offer-4_mob.png) !important;
+    }
+
+    .offer-card:nth-child(5) .offer-image {
+        background-image: url(../../assets/images/aesthetic/offer-5_mob.png) !important;
+    }
+}
